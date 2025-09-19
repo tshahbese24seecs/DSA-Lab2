@@ -19,6 +19,6 @@ int main() {
 	// Created on Heap
 	int* iRef = new int(56);
 	analyze_pointer(iRef);
-	
+	delete iRef;
 	return 0;
 }
